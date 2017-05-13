@@ -1,38 +1,21 @@
-# Flask-Social-Networking
-This is a Small Social Networking website developed using Flask and Peewee. It uses Jinja-2 templating engine. 
+<b>Image description social app</b>
 
-#Requirements
+This app allows users to upload images and describe them. Their discription is used to train a neural network, which gets better at predicting the description.
 
-Before Starting Package needed to be installed
+Steps to get it working:
+pip install -r requirements.txt
+activate the environment
+python app.py 
 
-1) pip install flask
+Machine Learning concepts used :
+SURF Feature Detector
+Multi-layer Perceptron classifier
+Supervised Learning
 
-2) pip install peewee
+Social media app developed using :
+Flask
+Peewee ORM 
+Sqlite database for simplicity
 
-3) pip install flask-login
 
-4) pip install flask-bcrypt (It uses the blue fish cipher)
-
-5) pip install flask-wtf
-
-Python version >= 2.7
-
-#Platform Specification
-Runs on Mac OSX, Windows, Linux.
-
-#Installation
-fork the github [Repository.](https://github.com/sinscary/Flask-Social-Networking.git) 
-
-Run following line in terminal to install dependencies
-```bash
-  pip install -r requirements.txt
-```
-after installing run
-```bash
-  python app.py
-```
-fire up your browser and visit
-```http
-  localhost:8000
-```
-
+Since it is developed as a part of a hackathon (1 day event), technically a lot can be improved. 
